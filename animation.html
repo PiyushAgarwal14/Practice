@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design & made by Piyush Agarwal</title>
+    <style>
+        .car{
+            animation-name: moving_car;
+            animation-duration: 20s;
+            animation-direction: normal;
+            position: absolute;
+        }
+
+        @keyframes moving_car{
+            0% {
+                    left: 0;
+                }
+                38% {
+                    -webkit-transform: rotateY(0deg); 
+                }
+                40% { 
+                    left: calc(100% - 100px);
+                    -webkit-transform: rotateY(180deg); 
+                }
+                68% {
+                    -webkit-transform: rotateY(180deg); 
+                }
+                70% {
+                    left: 0;    
+                    -webkit-transform: rotateY(0deg);
+                }
+        }
+
+        body{
+            background-repeat: repeat-x;
+        }
+    </style>
+</head>
+<body style="background-image: url(images/road.jpg);">
+
+    <div style="margin-top: 200px;">
+        <img class="car" src="images/car.png" alt="car">
+    </div>
+    
+</body>
+</html>

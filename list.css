@@ -1,0 +1,35 @@
+body{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
+ol{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+li{
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.cost{
+    display: inline;
+    
+    font-size: 20px;
+}
+
+ol:hover{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .cost{
+      margin-left: 20%!important;
+    }
+  }

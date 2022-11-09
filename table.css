@@ -1,0 +1,40 @@
+table{
+    margin-top: 15px;
+border-collapse: collapse;
+}
+
+td, th{
+    border:  1px solid black;
+    padding: 10px;
+    font-size: large;
+}
+
+.price:hover{
+    background-color: green;
+    color: white;
+}
+
+.sup:hover{
+    background-color: black;
+    color: white;
+}
+
+th{
+    background-color:burlywood;
+}
+
+.moving{
+    margin: 20px;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.moving:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}

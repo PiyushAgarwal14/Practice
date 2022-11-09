@@ -1,0 +1,61 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+}
+li{
+    display: inline;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+li:hover{
+    color: aquamarine;
+}
+
+.container{
+    margin: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: -5px 5px gray;
+    border-radius: 10px;
+}
+
+.card_body{
+    padding: 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.card_body:hover{
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.copyright{
+    margin-top: 360px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.copyright:hover{
+    color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
