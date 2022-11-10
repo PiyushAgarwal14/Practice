@@ -1,0 +1,30 @@
+.car{
+    animation-name: moving_car;
+    animation-duration: 20s;
+    animation-direction: normal;
+    position: absolute;
+}
+
+@keyframes moving_car{
+    0% {
+            left: 0;
+        }
+        38% {
+            -webkit-transform: rotateY(0deg); 
+        }
+        40% { 
+            left: calc(100% - 100px);
+            -webkit-transform: rotateY(180deg); 
+        }
+        68% {
+            -webkit-transform: rotateY(180deg); 
+        }
+        70% {
+            left: 0;    
+            -webkit-transform: rotateY(0deg);
+        }
+}
+
+body{
+    background-repeat: repeat-x;
+}
